@@ -1,3 +1,63 @@
-h1{
-    color:aquamarine
+.banner{
+    display: flex;
+    background-color: darkslategray;
+
+}
+
+#picture{
+    width: 150px;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+    box-shadow: 5px 5px 5px 5px black
+}
+span{
+    position: relative;
+    font-size: xxx-large;
+    font-style: italic;
+    left: 320px;
+    bottom: 100px;
+    color: white;
+}
+.navigation{
+    background-color:  black;
+    padding: 0.1em;
+    font-size: x-large;
+    text-align:center;
+    
+}
+#navigate{
+    color: white;
+
+}
+
+.card{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
+
+}
+h2{
+    background-color: darkslategray;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    display: block;
+    
+}
+main{
+   display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+}
+
+.long-line{
+    color: black;
+    border-bottom: 1px solid black; /* You can adjust the color, thickness, and style of the line */
+    margin: 5px 5px 5px 5px;
 }
