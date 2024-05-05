@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    
+    .card {
+        display: grid;
+        grid-template-columns: 66.6% 33.3;
+        column-gap: 10px;
+    }
+
+}
