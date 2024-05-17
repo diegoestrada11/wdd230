@@ -12,3 +12,12 @@ const formattedLastModifiedDate = lastModifiedDate.toLocaleDateString();
 // Get the p element in the footer
 const lastModified = document.getElementById("lastModified");
 lastModified.innerHTML = formattedLastModifiedDate;
+
+// responsive menu
+
+const hambugerElement = document.querySelector("#mybutton");
+const navElement = document.querySelector(".navigation");
+
+hambugerElement.addEventListener("click", () => {
+    navElement.classList.toggle("open");
+});
