@@ -16,8 +16,17 @@ lastModified.innerHTML = formattedLastModifiedDate;
 // responsive menu
 
 const hambugerElement = document.querySelector("#mybutton");
-const navElement = document.querySelector(".navigation");
+const navElement = document.querySelector(".menuLinks");
 
 hambugerElement.addEventListener("click", () => {
     navElement.classList.toggle("open");
+    hambugerElement.classList.toggle("open");
 });
+
+// Dark button
+
+const myBtn = document.querySelector("#darkBtn");
+
+myBtn.addEventListener("click", () => {
+    main.classList.toggle("dark");
+})

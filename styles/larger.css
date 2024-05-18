@@ -1,9 +1,13 @@
-@media screen and (min-width: 768px) {
-    
-    .card {
-        display: grid;
-        grid-template-columns: 66.6% 33.3;
-        column-gap: 10px;
+@media only screen and (min-width: 38rem) {
+    #mybutton {
+        display: none;
     }
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
 
+    }
+    ul.menuLinks a:hover{
+        background-color: navy;
+    }
 }

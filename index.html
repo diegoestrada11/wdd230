@@ -6,13 +6,18 @@
     <title>Diego Estrada - WDD 230 - Web Fronted Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="./styles/small.css">
     <script src="scripts/getDates.js" defer></script>
 
     <meta property="og:title" content="TourismCA">
     <meta property="og:type" content="Official website of TourismCA. Find the best deals for trips, activities and more.">
     <meta property="og:image" content="https://deih43ym53wif.cloudfront.net/el-arco-antigua-city-agua-volcano-guatemala-shutterstock_769890442_310c953c75.jpeg">
     <meta property="og:url" content="https://TourismCA.com">
+
 </head>
+<header>
+    <img src="./images/light-mobile-ui-basic-lamp-dark-mode-svgrepo-com.svg" alt="dark mode" id="darkBtn">
+</header>
 <body>
     <div class="banner">
         <header>
@@ -21,12 +26,12 @@
         </header> 
     </div>
     <nav>
-        <button id="mybutton">&#9776</button>
-        <ul class="navigation">
-            <a id = "active" href="#">Home</a>
-            <a href="#">Chamber</a>
-            <a href="./week01/chamber-site-plan.html">Site Plan</a>
-            <a href="#">Form</a>
+        
+        <ul class="menuLinks">
+            <li><a id = "active" href="#">Home</a></li>
+            <li class="current-menu-item"><a href="#">Chamber</a></li>
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
         </ul>
     </nav>    
  

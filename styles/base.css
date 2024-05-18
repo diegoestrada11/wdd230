@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .banner{
     display: flex;
@@ -91,4 +93,18 @@ footer p {
     margin: 0;
     font-size: x-large;
     color: white;  
+}
+
+/* Dark Button*/
+
+#darkBtn{
+    position: absolute;
+    top: 1rem; right: 1rem;
+    width: 24px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header{
+    position: relative;
 }

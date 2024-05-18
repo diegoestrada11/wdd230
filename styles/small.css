@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+    .card {
+        display: grid;
+        grid-template-columns: 66.6% 33.3;
+        column-gap: 10px;
+    }
+}
+
+/*Hamburger responsive menu*/
+
+nav{
+    background-color: black;
+}
+
+#mybutton::before{
+    content: "=";
+}
+#mybutton{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding:.25rem 2vw;
+}
+
+ul.menuLinks li a{
+
+    display: block;
+    padding: .75rem 2vw;
+    color:#fff;
+    text-decoration: none;
+
+}
+
+li.current-menu-item a{
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+ul.menuLinks{
+    display: none;
+    list-style-type: none;
+}
+ul.open.menuLinks{
+    display: block;
+}
+
+#mybutton.open::before{
+    content: "X";
+}
