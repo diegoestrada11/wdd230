@@ -24,8 +24,17 @@ hamburgerElement.addEventListener("click", () => {
 
 // Dark button
 
-const myBtn = document.querySelector("#darkBtn");
+const modeButton = document.querySelector("#mode");
+const main = document.querySelector("main");
 
-myBtn.addEventListener("click", () => {
-    main.classList.toggle("dark");
-})
+modeButton.addEventListener("click", () => {
+	if (modeButton.textContent.includes("🕶️")) {
+		main.style.background = "#000";
+		main.style.color = "#fff";
+		modeButton.textContent = "🔆";
+	} else {
+		main.style.background = "#eee";
+		main.style.color = "#000";
+		modeButton.textContent = "🕶️";
+	}
+});

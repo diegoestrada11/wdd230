@@ -6,8 +6,7 @@
 header {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #3A405A;
-    width: 100%;
+    background-color: darkslategray;
     color: white;
     text-align: center;
 }
@@ -23,7 +22,7 @@ header h1 {
 }
 
 nav {
-    max-width: 1000px;
+    width: 100%;
     margin: 1rem auto;
 }
 #picture{
@@ -40,7 +39,7 @@ nav {
     content: "☰";
 }
 
-#menu.open::before {
+.open::before {
     content: "❎";
 }
 
@@ -48,7 +47,7 @@ nav {
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: #99B2DD;
+    background-color: black;
 }
 
 .navigation li {
@@ -60,12 +59,12 @@ nav {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
 }
 
 .navigation li a:hover {
-    color: #3A405A;
+    color: darkslategray;
     text-decoration: underline;
 }
 
@@ -94,13 +93,13 @@ main {
 
 main h2 {
     font-size: 35px;
-    color: #3A405A;
+    color: darkslategray;
 }
 
 main h2:after {
     content:' ';
     display:block;
-    border:3px solid #3A405A;
+    border:3px solid darkslategray;
 }
 
 .card {
@@ -141,7 +140,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #3A405A;
+    background-color: darkslategray;
     color: white;
 }
 
@@ -157,11 +156,11 @@ footer p {
 
 /* Dark Button*/
 
-#darkBtn{
+#mode{
     position: absolute;
     top: 1rem; right: 1rem;
-    width: 24px;
-    background-color: #3A405A;
+    width: 50px;
+    background-color: darkslategray;
     cursor: pointer;
 }
 
