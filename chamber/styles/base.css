@@ -1,0 +1,33 @@
+nav{
+    background-color: #D4AC0D;
+}
+
+#Hero{
+    width: 50%;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    left: 470px;
+    box-shadow: 5px 5px 5px 5px lightskyblue;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 50px;
+    font-size: x-large;
+    justify-content: space-around;
+}
+
+/*sides images*/
+.images_sides{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+
+/*footer*/
+
+footer{
+    background-color: #D4AC0D;
+}
