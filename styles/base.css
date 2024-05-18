@@ -1,98 +1,158 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.banner{
-    display: flex;
-    background-color: darkslategray;
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+* {
+    font-family: 'Kanit', sans-serif;
 }
 
-#picture{
-    width: 150px;
-    margin: 10px;
-    position: relative;
-    left: 300px;
-    box-shadow: 5px 5px 5px 5px black
-}
-#name{
-    position: relative;
-    font-size: xxx-large;
-    font-style: italic;
-    left: 320px;
-    bottom: 100px;
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #3A405A;
+    width: 100%;
     color: white;
+    text-align: center;
+}
+
+header img {
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding: 65px 0;
+    font-size: 40px;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 1rem auto;
+}
+#picture{
+    width: 200px;
+}
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    background-color: #99B2DD;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
 }
 
 .navigation {
     display: flex;
-    justify-content: space-around;
-    background-color:  black;
-    padding: 0px;
-    font-size: x-large;
-    text-align:center;
-    
+    flex-direction: column;
+    list-style: none;
+    background-color: #99B2DD;
 }
 
-.navigation a {
-    color: white;
-    width: 100%;
-    text-decoration: none;
-    padding: 2rem 0;
-    
+.navigation li {
+    display: none;
 }
 
-#active {
-    background-color: brown;
-}
-
-.card{
-    background-color: lightgray;
-    margin: 30px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 5px gray;
-    border-radius: 5px;
-
-}
-#information{
-    text-align: center;
-}
-h2{
-    background-color: darkslategray;
-    padding: 0.5em;
-    border-radius: 5px;
-    text-align: center;
-    color: white;
-    position: relative;
-    bottom: 25px;
+.navigation li a {
     display: block;
-    margin-top: 20px;
-}
-main{
-   display: grid;
-    grid-template-columns: 4fr 2fr;
-    gap: 8px;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
 }
 
+.navigation li a:hover {
+    color: #3A405A;
+    text-decoration: underline;
+}
+
+.navigation li a:visited {
+    color: none;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
 .long-line{
     color: black;
     border-bottom: 1px solid black; 
     margin: 5px 5px 5px 5px;
     grid-column: 1/3;
 }
+main {
+    width: 100%;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 35px;
+    color: #3A405A;
+}
+
+main h2:after {
+    content:' ';
+    display:block;
+    border:3px solid #3A405A;
+}
+
+.card {
+    border: black solid;
+    display: grid;
+    margin: 30px 0;
+}
+
+
+.card ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.card ul li{
+    padding: .8rem;
+    text-align: left;
+}
+
+.card ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.card ul li a:visited{
+    color: black;
+}
+
+.card ul li a:hover{
+    text-decoration: underline;
+}
+
+.card ul p{
+    display: inline;
+}
 
 footer {
-    background-color: darkslategray;
-    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 330px;
+    background-color: #3A405A;
+    color: white;
 }
-  
+
 footer p {
-    margin: 0;
-    font-size: x-large;
-    color: white;  
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+#lastModified {
+    padding-bottom: 30px;
+    color: #F9DEC9;
 }
 
 /* Dark Button*/
@@ -101,7 +161,7 @@ footer p {
     position: absolute;
     top: 1rem; right: 1rem;
     width: 24px;
-    background-color: #fff;
+    background-color: #3A405A;
     cursor: pointer;
 }
 

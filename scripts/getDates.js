@@ -15,12 +15,11 @@ lastModified.innerHTML = formattedLastModifiedDate;
 
 // responsive menu
 
-const hambugerElement = document.querySelector("#mybutton");
-const navElement = document.querySelector(".menuLinks");
+const hamburgerElement = document.querySelector("#menu");
+const navElement = document.querySelector(".navigation");
 
-hambugerElement.addEventListener("click", () => {
+hamburgerElement.addEventListener("click", () => {
     navElement.classList.toggle("open");
-    hambugerElement.classList.toggle("open");
 });
 
 // Dark button
