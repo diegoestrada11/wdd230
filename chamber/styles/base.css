@@ -1,38 +1,119 @@
-body{
+/*Home Page html*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p, li {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2rem;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7e1b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 1rem 0;
+    font-family: 'Young serif', serif;
     background-color: #068f5f;
-}
-nav{
-    background-color: #D4AC0D;
-}
-
-#Hero{
-    width: 50%;
-    height: 200px;
-    margin: 10px;
+    color: #ff7e1b;
+    font-size: smaller;
+    text-align: center;
     position: relative;
-    left: 470px;
-    box-shadow: 5px 5px 5px 5px lightskyblue;
-    
+    width: 100%;
 }
 
-ul{
+header img {
+    width: 20%;
+}
+
+#dark-mode {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-color: #ff7e1b;
+    background-color: #068f5f;
+    color: #ff7e1b;
+}
+
+nav {
+    background-color: #068f5f;
+    margin: 10px 0;
+    width: 100%;
+}
+
+nav ul {
     list-style-type: none;
-    display: flex;
-    margin: 50px;
-    font-size: x-large;
-    justify-content: space-around;
 }
 
-/*sides images*/
-.images_sides{
-    display: grid;
-    grid-template-columns: 3fr 3fr;
+nav li{
+    display: inline-block;
+    margin: 0 150px;
+}
+.hero img{
+    width: 100%;
+    height: auto;
 }
 
-/*footer*/
-
-footer{
-    background-color: #D4AC0D;
-    padding: 10px;
-    margin: 200px;
+.hero {
+    position: relative;
+    margin: 0;
 }
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #068f5f;
+    color: #ff7e1b;
+}
+
+
+/*This part is for discover.html document*/
+#discover {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.sidebar-box {
+    padding: 2rem;
+    margin: 10px auto;
+    background-color: #068f5f;
+    color: #7ddbfa;
+}
+
+.sidebar-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#images {
+    text-align: center;
+    background-color: #068f5f;
+    color: #ff7e1b;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#images img {
+    margin-bottom: 70px;
+    width: 98%;
+}
+
+#images h3{
+    margin-bottom: 18px;
+}
+
+

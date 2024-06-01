@@ -12,29 +12,72 @@
 
     <link rel="stylesheet" href="../chamber/styles/base.css">
     <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <script src="../chamber/scripts/lastModified.js" defer></script>
     <link rel="shortcut icon" href="../chamber/images/favicon_icon.png" type="image/x-icon">
 </head>
-<body>
-    <img id="Hero" src="../chamber/images/hero_long_img.jpg" alt="Hero image">
-    <h1>Chamber of Commerce</h1>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#">page 2</a></li>
-            <li><a href="#">page 3</a></li>
-            <li><a href="#">contact us</a></li>
-        </ul>
-    </nav>
-    <div class="images_sides">
-        <img src="../chamber/images/travel_images.jpeg" alt="travel">
-        <img src="../chamber/images/travel_images.jpeg" alt="travel">
-    </div>
-    <main>
-        <p>call to action</p>
-        <p>call to action</p>
-    </main>
-</body>
+<header>
+    <img src="../chamber/images/ChamberOfCommerce_logo.webp" alt="logo">
+    <button id="dark-mode">DARK</button>
+</header>
+<nav>
+
+    <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="#">Discover</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li><a href="#">Page 4</a></li>
+    </ul>
+</nav>
+<main id="discover">
+    <section id="sidebar">
+        <section class="sidebar-box">
+            <h2><span id="lastVisit"></span></h2>
+        </section>
+        <section class="sidebar-box">
+            <h2>Demographics</h2>
+            <p>Population: 17,608,483</p>
+            <p>People Ages 18-65: 54.1%</p>
+            <p>Median Gross Rent: $500</p>
+            <p>Median Household income: $12,500</p>
+        </section>
+        <section class="sidebar-box">
+            <h2>What Makes Guatemala Stand Out?</h2>
+            <h3>1. Business-Friendly Environment</h3>
+            <p>Guatemala offers a highly favorable environment for businesses, driven by its strategic location in Central America, which serves as a gateway between North and South America. The country boasts a diverse and dynamic economy with sectors 
+                ranging from agriculture and manufacturing to tourism and services. Guatemala's government has implemented various policies and incentives to attract foreign investment, including tax breaks, simplified business registration processes, and free trade agreements 
+                with key global markets. Additionally, the nation’s young and growing population provides a vibrant and skilled labor force, further enhancing its appeal to entrepreneurs and multinational corporations. The combination of competitive operational costs, modern infrastructure, 
+                and a commitment to economic reforms makes Guatemala an attractive destination for business growth and investment.</p>
+            <h3>2. Energy Hub</h3>
+            <p>Guatemala is becoming an important energy hub in Central America due to its abundant natural resources and investments in energy infrastructure. The country has focused on expanding its renewable energy sources, including hydroelectric, geothermal, and solar power. 
+                Hydroelectric power is especially significant, providing a large portion of Guatemala’s electricity. Additionally, Guatemala 
+                is a key location for regional energy distribution, connecting power grids and enabling energy trade. The government's efforts 
+                to modernize the energy sector and promote sustainability make Guatemala an attractive destination for energy investments.</p>
+            <h3>3. Quality of Life</h3>
+            <p>Guatemala offers a high quality of life with its rich cultural heritage, beautiful landscapes, and warm climate. The country is known for its friendly people, vibrant traditions, and delicious cuisine. With affordable living costs, residents enjoy a good standard of living. 
+                Access to healthcare and education is improving, and the growing economy provides new opportunities for work and business. From its historic cities to stunning natural attractions, Guatemala is a wonderful place to live and explore.</p>
+            <h3>4. Talented Workforce</h3>
+            <p>Houston is home to a highly educated and diverse workforce. With over 60 colleges and universities in the Greater Houston area, businesses can tap into a pool of skilled professionals across various fields.</p>
+            <h3>5. Infrastructure and Connectivity</h3>
+            <p>Houston boasts a well-developed infrastructure with extensive road networks, a major international airport, and a growing public transportation system. Its strategic location enables businesses to efficiently reach customers, suppliers, and partners, both domestically and globally.</p>
+        </section>
+    </section>
+    <section id="images">
+        <h3>Booming Economy</h3>
+        <img src="../chamber/images/cayala2.webp" alt="Cayala" loading="lazy" width="600" height="393">
+        <h3>Beautiful Infrastructure</h3>
+        <img src="../chamber/images/tikal.webp" alt="Tikal" loading="lazy" width="600" height="449">
+        <h3>Reliable Transportation System</h3>
+        <img src="images/lago_atitlan.webp" alt="Lago de Atitlan" loading="lazy" width="600" height="545">
+        <h3>Events going on every day!</h3>
+        <img src="images/activity.webp" alt="Activity" loading="lazy" width="600" height="400">
+        <h3>Hustle and Bustle of City Life</h3>
+        <img src="images/antigua_guatemala.webp" alt="Antigua" loading="lazy" width="600" height="400">
+        <h3>Never run out of things to do!</h3>
+        <img src="../chamber/images/cayala.webp" alt="Cayala" loading="lazy" width="600" height="429">
+    </section>
+</main>
 <footer>
-    <h3>Footer</h3>
+    <p>&copy;<span id='currentYear'></span> Diego Estrada | Chamber Of Commerce WDD 230 | Last Modified:<span id="lastModified"></span></p>
 </footer>
+</body>
 </html>
