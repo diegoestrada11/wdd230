@@ -7,9 +7,9 @@ Fonts are separated by a & */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #068f5f   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #003d99;
-  --accent2-color: #834491;
+  --secondary-color: #05698A ;
+  --accent1-color: #C76C05;
+  --accent2-color: #EDEBE9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Josefin Sans";

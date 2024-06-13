@@ -6,7 +6,7 @@
 header {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: darkslategray;
+    background-color: #05698A;
     color: white;
     text-align: center;
 }
@@ -25,7 +25,7 @@ header img {
 	position: absolute;
 	top: 500px;
 	left: 30px;
-	background: radial-gradient(#fff, #4D5B97);
+	background: radial-gradient(#fff, #05698A);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
@@ -45,7 +45,7 @@ header h1 {
 }
 h1{
     text-align: center;
-
+    
 }
 
 nav {
@@ -74,7 +74,7 @@ nav {
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: black;
+    background-color: #068f5f;
 }
 
 .navigation li {
@@ -120,13 +120,13 @@ main {
 
 main h2 {
     font-size: 35px;
-    color: darkslategray;
+    color: #05698A;
 }
 
 main h2:after {
     content:' ';
     display:block;
-    border:3px solid darkslategray;
+    border:3px solid #05698A;
 }
 
 .card {
@@ -179,7 +179,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: darkslategray;
+    background-color: #05698A;
     color: white;
 }
 
@@ -199,7 +199,7 @@ footer p {
     position: absolute;
     top: 1rem; right: 1rem;
     width: 50px;
-    background-color: darkslategray;
+    background-color: #05698A;
     cursor: pointer;
 }
 
