@@ -116,4 +116,96 @@ footer {
     margin-bottom: 18px;
 }
 
+/*Join HTML*/
 
+#join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    width: 100%;
+}
+#join form{
+    text-align: left;
+    width: 100%;
+}
+
+#join fieldset {
+    background-color: #05698A;
+}
+
+textarea {
+    display: block;
+    width: 22rem;
+    height: 5rem;
+    margin-top: 0.8rem;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7e1b;
+    margin: 2rem 0;
+    font-size: large;
+}
+
+input {
+    display: block;
+    padding: .4rem;
+    margin-top: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    width: 20rem;
+}
+
+#nonprofit, #bronze, #silver, #gold{
+    display: inline;
+}
+
+form button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: block;
+    padding: 0.8rem;
+    font-size: xx-large;
+    background-color: #EDEBE9;
+    border: #ff7e1b 1px solid;
+    color: #ff7e1b;
+}
+
+form button {
+    box-shadow: 0 0 15px #ff7e1b;
+}
+
+.radio {
+    display: inline;
+}
+
+#bronze, #silver, #nonprofit, #gold {
+    width: fit-content;
+}
+
+#membership-levels {
+    background-color: #05698A;
+    color: #ff7e1b;
+    padding: 0 3rem;
+    margin-bottom: 10px;
+    padding-bottom: 2rem;
+}
+#membership-levels h1 {
+    margin: 3rem 0;
+}
+#membership-levels h2 {
+    margin: 1rem 0;
+}
+
+/* thankyou.html */
+
+#thankyou section {
+    background-color: #05698A;
+    color: #ff7e1b;
+    margin-bottom: 10px;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}

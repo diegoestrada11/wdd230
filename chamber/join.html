@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+
+    <meta property="og:title" content="Guatemala Chamber of Commerce">
+    <meta property="og:type" content="Official website of Guatemala Chamber of Commerce. Find everything about Guatemala and important information that you can use as advantage and join our cahmbeer of commerce.">
+    <meta property="og:image" content="https://deih43ym53wif.cloudfront.net/el-arco-antigua-city-agua-volcano-guatemala-shutterstock_769890442_310c953c75.jpeg">
+    <meta property="og:url" content="https://ChamberOfCommerce.com">
+
+    <link rel="stylesheet" href="../chamber/styles/base.css">
+    <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <script src="../chamber/scripts/lastModified.js" defer></script>
+    <link rel="shortcut icon" href="../chamber/images/favicon_icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="../chamber/images/ChamberOfCommerce_logo.webp" alt="logo">
+        <button id="dark-mode">DARK</button>
+    </header>
+    <nav>
+    
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="../chamber/discover.html">Discover</a></li>
+            <li><a href="../chamber/join.html">Join us</a></li>
+            <li><a href="#">Page 4</a></li>
+        </ul>
+    </nav>
+    
+    <main id="join">
+            <form action="../chamber/thankyou.html" method="get">
+                <fieldset>
+                <label>First Name:<input id="first-name" name="first-name" type="text" required></label>
+                <label>Last Name:<input id="last-name" name="last-name" type="text" required></label>
+                <label>Title or Position:<input id="title" name="title" type="text" required pattern="[A-Za-z -]{7,}"></label>
+                <label>Email:<input id="email" name="email" type="email" placeholder="example@gmail.com" required></label>
+                <label>Mobile Phone:<input name="phone" id="phone" type="tel" required></label>
+                <label>Business/Organization Name:<input name="business" id="business" type="text" required></label>
+                <label>Membership Level:</label>
+                <input type="radio" id="nonprofit" name="nonprofit" value="Non-Profit">
+                <label class="radio" for="nonprofit">Non-Profit</label><br>
+                <input type="radio" id="bronze" name="bronze" value="Bronze">
+                <label class="radio" for="bronze">Bronze</label><br>
+                <input type="radio" id="silver" name="silver" value="Silver">
+                <label class="radio" for="silver">Silver</label><br>
+                <input type="radio" id="gold" name="gold" value="Gold">
+                <label class="radio" for="gold">Gold</label><br>
+                <label>Description:<textarea name="description" id="description"></textarea></label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+                <button type="submit">Join the Chamber!</button>
+                </fieldset>
+            </form>
+            <section id="membership-levels">
+                <h1>Membership Levels</h1>
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>For non-profit organizations membership is free. No fees due.</li>
+                </ul>
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>15% discount on events</li>
+                    <li>10% discount on advertising</li>
+                    <li>Fee of $50/month</li>
+                </ul>
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>25% discount on events</li>
+                    <li>15% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>Fee of $100/month</li>
+                </ul>
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>5 free featured ads per year</li>
+                    <li>1 free training per quarter</li>
+                    <li>Fee of $250/month</li>
+                </ul>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id='currentYear'></span> Diego Estrada | Chamber Of Commerce WDD 230 | Last Modified:<span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
