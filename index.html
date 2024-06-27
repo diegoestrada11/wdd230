@@ -10,6 +10,7 @@
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/getLastVisit.js" defer></script>
+    <script src="scripts/links.js" defer></script> <!-- Corrected script tag -->
 
     <meta property="og:title" content="TourismCA">
     <meta property="og:type" content="Official website of TourismCA. Find the best deals for trips, activities and more.">
@@ -19,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img id = "picture" src="./images/picture_profile.jpg" alt="Profile Image">
+        <img id="picture" src="./images/picture_profile.jpg" alt="Profile Image">
         <h1>Diego Estrada</h1>
     </header>
     <div id="mode">
@@ -35,14 +36,14 @@
         </ul>
     </nav>
 
-    <div id = "hero">
+    <div id="hero">
         <picture>
             <source srcset="../wdd230/images/quetzaltenango_guatemala_temple_lds.webp" media="(max-width: 400px)">
             <source srcset="../wdd230/images/quetzaltenango-guatemala-temple-lds.webp" media="(max-width: 900px)">
-            <img src="../wdd230/images/quetzaltenango.webp" alt="Guatemala temple" loading ="lazy" width="1970" height="813">
+            <img src="../wdd230/images/quetzaltenango.webp" alt="Guatemala temple" loading="lazy" width="1970" height="813">
         </picture>
 
-        <div id = "hero-label">
+        <div id="hero-label">
             <p>Quetzaltenango Temple</p>
         </div>
     </div>
@@ -50,15 +51,9 @@
     <h1>WDD 230: Web Frontend Development</h1>
     <div class="long-line"></div>
     <main>
-       
         <section class="card">
             <h2>Learning Activities</h2>
-            <p>Week 1: <a href="#activity1">Layout</a> | <a href="#activity2">Media</a> | <a href="#activity3">Js Pen</a></p>
-            <p>Week 2: <a href="https://codepen.io/Diego-Estrada-the-looper/pen/YzbzPwV">Hambuger Responsive Menu</a> | <a href="../wdd230/week02/bom.html">BOM App</a></p>
-            <p>Week 3: <a href="../wdd230/week03/images/landscape.webp">WebP</a> | <a href="../wdd230/week03/lazyload.html">lazyload</a> | <a href="../wdd230/week03/responsive-images.html">Responsive Images</a> | <a href="../wdd230/week03/bom.html">Web Storage API - localStorage</a></p>
-            <p>Week 4: <a href="https://codepen.io/Diego-Estrada-the-looper/pen/mdYwEob">CSS Pseudo Classes</a> | <a href="../wdd230/images/Screenshot 2024-06-05 120355.png">CSS Combinators</a> | <a href="../wdd230/week04/tablebuild.html">HTML Tables for Data Presentation</a></p>
-            <p>Week 5:</p>
-            <p>Week 6:</p>
+            <div id="activity-links"></div> <!-- Empty container for dynamic links -->
         </section>
         <section id="weather-card" class="card">
             <h3>Information</h3>
@@ -67,9 +62,10 @@
             <p><span id="weather"></span></p>
             <p>Page Visits: <span id="pageVisits"></span></p>
         </section>
-
     </main>
-    <section id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247073.5457011671!2d-90.65737188739025!3d14.626162134174228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a180655c3345%3A0x4a72c7815b867b25!2sGuatemala%20City%2C%20Guatemala!5e0!3m2!1sen!2sus!4v1717266745371!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>    
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247073.5457011671!2d-90.65737188739025!3d14.626162134174228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a180655c3345%3A0x4a72c7815b867b25!2sGuatemala%20City%2C%20Guatemala!5e0!3m2!1sen!2sus!4v1717266745371!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
     <footer>
         <p>&copy; 2024 Diego Javier Estrada Alvarado / Guatemala</p>
         <p>Last Modified: <span id="lastModified"></span></p>
