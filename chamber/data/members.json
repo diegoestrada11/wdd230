@@ -1,0 +1,77 @@
+{
+    "members": [
+      {
+        "name": "Alorica Latam",
+        "address": "Galerías Primma 14-82 Guatemala 01007 Guatemala, Guatemala City",
+        "phone": "+502 4499 7279",
+        "website": "https://www.alorica.com",
+        "image": "alorica_latam.JPEG",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Telus international",
+        "address": "18 Calle 25-85 Zona 10, GUATEMALA CITY, Guatemala",
+        "phone": "+502 2223 0000",
+        "website": "https://www.telusinternational.com",
+        "image": "telus.JPEG",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company B."
+      },
+      {
+        "name": "Claro Guatemala",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2473 1232",
+        "website": "http://www.companya.com",
+        "image": "claro.JPEG",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Tigo Guatemala",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2428 0000",
+        "website": "https://www.tigo.com.gt/",
+        "image": "tigo2.PNG",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Miraflores",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2208 0550",
+        "website": "https://miraflores.com.gt/quienes-somos.php",
+        "image": "miraflores2.JPG",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Oakland Place",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2208 0606",
+        "website": "https://oaklandplace.com.gt/",
+        "image": "Oakland.jpeg",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Pollo Campero",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2363 5555",
+        "website": "https://www.campero.com/gt/inicio",
+        "image": "pollo_campero.jpeg",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      },
+      {
+        "name": "Banco Industrial",
+        "address": "123 Main St, City, ST, 12345",
+        "phone": "+502 2411 6000",
+        "website": "http://www.companya.com",
+        "image": "banco_industrial.jpeg",
+        "membershipLevel": "Gold",
+        "description": "A brief description of Company A."
+      }
+    ]
+  }
+  

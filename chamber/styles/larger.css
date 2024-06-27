@@ -26,7 +26,29 @@
         box-shadow: 0 0 20px #ff7e1b;
     }
 
+    /* directory.html */
 
+    #directory div {
+        padding: 2rem 0;
+    }
 
+    #directory div button {
+        font-size: xx-large;
+        margin: 0 1.4rem;
+    }
 
+    #display section {
+        margin-bottom: 0;
+    }
+
+    .grid {
+        margin: 0 10px;
+    }
+
+    .list section {
+        margin: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 2rem;
+    }
 }
