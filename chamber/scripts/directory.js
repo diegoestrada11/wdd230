@@ -22,8 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>${member.address}</p>
                 <p>${member.phone}</p>
                 <a href="${member.website}" target="_blank">${member.website}</a>
-                <p>${member.membershipLevel}</p>
-                <p>${member.description}</p>
+                
             `;
             memberDirectory.appendChild(memberCard);
         });
