@@ -206,3 +206,28 @@ footer p {
 header{
     position: relative;
 }
+
+#activity-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #activity-links div {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #activity-links h3 {
+    margin-right: 30px;
+  }
+  
+  #activity-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #activity-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
