@@ -62,6 +62,8 @@ nav ul {
 nav li{
     display: inline-block;
     margin: 0 150px;
+    padding: 10px;
+    
 }
 .hero img{
     width: 100%;
@@ -257,8 +259,4 @@ form button {
 #directory-main .member-card p,
 #directory-main .member-card a {
     margin: 5px 0;
-}
-
-#grid-view-btn{
-    
 }
