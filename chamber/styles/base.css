@@ -82,6 +82,23 @@ footer {
     color: #ff7e1b;
 }
 
+.images-homepage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.container {
+    background-color: #068f5f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin: 10px;
+}
+.paragraph {
+    margin: 10px;
+    padding: 20px;
+}
 
 /*This part is for discover.html document*/
 #discover {
