@@ -20,9 +20,14 @@
           "url": "week02/responsive-design.html",
           "title": "Responsive Design"
         },
+       
         {
-          "url": "week02/flexbox.html",
-          "title": "Flexbox"
+          "url": "week02/bom.html",
+          "title": "BOM"
+        },
+        {
+          "url": "week02/design.html",
+          "title": "Design acitivity"
         },
         {
           "url": "chamber/index.html",
@@ -73,12 +78,8 @@
       "week": "Week 6",
       "links": [
         {
-          "url": "week06/advanced-js.html",
-          "title": "Advanced JavaScript"
-        },
-        {
-          "url": "week06/performance.html",
-          "title": "Web Performance"
+          "url": "chamber/index.html",
+          "title": "Chamber Home Page"
         }
       ]
     }
