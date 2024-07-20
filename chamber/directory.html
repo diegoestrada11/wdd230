@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory of The chamber Of Commerce</title>
 
-    <meta property="og:title" content="Directory">
-    <meta property="og:type" content="Official website of Directory, chamber of commerce.">
-    <meta property="og:image" content="https://deih43ym53wif.cloudfront.net/el-arco-antigua-city-agua-volcano-guatemala-shutterstock_769890442_310c953c75.jpeg">
-    <meta property="og:url" content="https://TourismCA.com">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory page of Guatemala Chamber of Commerce">
+    <meta name="author" content="Diego Estrada">
+    <meta property="og:title" content="Guatemmala Chamber of Commerce Home Page">
+    <meta property="og:type" content="website">
+    <meta property="image" content="https://th.bing.com/th/id/OIP.E-fHjzvu2VRZx2gqYEs_dwHaEb?rs=1&pid=ImgDetMain">
+    <meta property="url" content=" https://diegoestrada11.github.io/wdd230/">
+    <title>Guatemala Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../chamber/styles/base.css">
     <link rel="stylesheet" href="../chamber/styles/larger.css">
-    <script src="../chamber/scripts/lastModified.js" defer></script>
+    <link rel="stylesheet" href="../chamber/styles/medium.css">
+    <script src="../chamber/scripts/daysSinceLastVisit.js" defer></script>
+    <script src="scripts/darkMode.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
     <script src="../chamber/scripts/directory.js"></script>
     <script src="../chamber/data/members.json"></script>
     <link rel="shortcut icon" href="../chamber/images/favicon_icon.png" type="image/x-icon">
 </head>
 <header>
-    <img src="../chamber/images/ChamberOfCommerce_logo.webp" alt="logo">
+    <img id ="logo" src="../chamber/images/ChamberOfCommerce_logo.webp" alt="logo">
     <button id="dark-mode">DARK</button>
 </header>
 <nav>
-
-    <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="../chamber/discover.html">Discover</a></li>
-            <li><a href="../chamber/join.html">Join Us</a></li>
-            <li><a href="../chamber/directory.html">Directory</a></li>
+    
+    <ul class="navigation-directory">
+        <li><a class="active" href="../chamber/index.html">Home</a></li>
+        <li><a href="../chamber/discover.html">Discover</a></li>
+        <li><a href="../chamber/directory.html">Directory</a></li>
+        <li><a href="../chamber/join.html">Join</a></li>
     </ul>
 </nav>
 <main id="directory-main">
@@ -38,7 +46,7 @@
     <div id="member-directory" class="grid-view"></div>
 </main>
 <footer>
-    <p>&copy;<span id='currentYear'></span> Diego Estrada | Chamber Of Commerce WDD 230 | Last Modified:<span id="lastModified"></span></p>
+    <p>&copy;<span id='currentYear'></span> Diego Estrada | Chamber of Commerce WDD 230 | Last Modified:<span id="lastModified"></span></p>
 </footer>
 </body>
 </html>
